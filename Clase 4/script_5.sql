@@ -1,4 +1,4 @@
-
+﻿
 CREATE TABLE departamento
 (
   id serial NOT NULL,
@@ -31,5 +31,5 @@ CREATE TABLE empleado
   CONSTRAINT fk_empleado_puesto FOREIGN KEY (id_puesto)
       REFERENCES puesto (id) MATCH SIMPLE
       ON UPDATE NO ACTION ON DELETE NO ACTION
-):
+);
 
